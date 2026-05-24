@@ -1,21 +1,27 @@
-# serverest-api-testing
+🚀 ServeRest API Testing Project
+Este projeto contém uma suíte de testes automatizados de API para a plataforma gratuita ServeRest. O objetivo é validar o fluxo de ponta a ponta (E2E) de um e-commerce fictício, garantindo a qualidade e a integridade dos dados através da automação com Postman e JavaScript.
 
-Título e Descrição: Nome do projeto e uma breve introdução. Ex: "Autenticação e testes automatizados de ponta a ponta na API do ServeRest utilizando Postman e JavaScript."
+🛠️ Tecnologias Utilizadas
+Postman: Ferramenta principal para criação e execução das requisições.
 
-Tecnologias Utilizadas: Listagem simples (Postman, JavaScript, Newman).
+JavaScript: Utilizado para scripts de pré-processamento e validações.
 
-Cenários de Teste Cobertos: Em vez de só dizer "testei a API", liste as regras de negócio que você validou. Por exemplo:
+🧪 Fluxo de Testes Implementado
+O projeto cobre os seguintes cenários críticos de negócio:
 
-POST /login: Validação de login com sucesso e tratamento de erro para dados inválidos.
+*  Cadastro de Usuário: Criação dinâmica de usuários administradores (com e-mail aleatório para evitar duplicidade).
 
-GET /usuarios: Validação do schema JSON e tempo de resposta (menor que 200ms).
+*  Autenticação: Realização de login e captura automática do Bearer Token.
 
-POST /produtos: Garantia de que um usuário comum não pode cadastrar produtos (apenas admin).
+*  Gerenciamento de Produtos: Cadastro de novos produtos utilizando o token de administrador.
 
-Como Executar o Projeto: O passo a passo para o recrutador testar.
+*  Carrinho de Compras: Finalização de compra vinculando o produto criado ao usuário autenticado.
 
-Como clonar o repositório.
+📁 Estrutura do Repositório
 
-Como importar a Collection e o Environment para o Postman dele.
-
-Resultados/Evidências: Aqui é onde entram as imagens. Coloque um print do Collection Runner do Postman mostrando todas as bolinhas verdes dos testes passando.
+.
+├── Postman/
+│   ├── Collection.json   # Exportação da coleção de testes
+│   │ 
+│   └── Environment.json   # Variáveis de ambiente
+└── README.md
