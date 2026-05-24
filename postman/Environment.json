@@ -1,0 +1,52 @@
+{
+	"id": "8c096901-4f6a-4c0c-b6d0-78d9b1094c60",
+	"name": "ServeRest-Prod",
+	"values": [
+		{
+			"key": "baseUrl",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "token",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "adminEmail",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "adminPassword",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "adminId",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "produtoNome",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "produtoId",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		}
+	],
+	"color": 60,
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2026-05-24T16:42:38.995Z",
+	"_postman_exported_using": "Postman/12.11.6-260522-1332"
+}
