@@ -15,3 +15,4 @@ O projeto cobre os seguintes cenários críticos de negócio:
 
 ## 📁 Estrutura do Repositório
 
+![Estrutura do repositório](Images/img1.png)
