@@ -1,4 +1,4 @@
-# 🚀 **ServeRest API Testing Project**
+# 🚀 **API Testing 01 ServeRest - Project**
 Este projeto contém uma suíte de testes automatizados de API para a plataforma gratuita ServeRest. O objetivo é validar o fluxo de ponta a ponta (E2E) de um e-commerce fictício, garantindo a qualidade e a integridade dos dados através da automação com Postman e JavaScript.
 
 ## 🛠️ Tecnologias utilizadas
