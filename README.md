@@ -15,9 +15,3 @@ O projeto cobre os seguintes cenários críticos de negócio:
 
 ## 📁 Estrutura do Repositório
 
-.
-├── Postman/
-│   ├── Collection.json   # Exportação da coleção de testes
-│   │ 
-│   └── Environment.json   # Variáveis de ambiente
-└── README.md
